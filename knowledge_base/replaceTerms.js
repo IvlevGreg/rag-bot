@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const TERMS_MAP_FILE = 'terms_map.json';
-const EXTENSIONS = ['md', 'txt']; // добавить другие, если нужно
+const EXTENSIONS = ['md', 'txt']; // добавить другие расширения если нужно
 
 function loadTermsMap() {
     const raw = fs.readFileSync(TERMS_MAP_FILE, 'utf8');
@@ -11,7 +11,6 @@ function loadTermsMap() {
 
 function findFiles(startDir, extensions) {
     const files = [];
-
     function walk(dir) {
         const dirList = fs.readdirSync(dir);
         dirList.forEach((file) => {
@@ -26,34 +25,52 @@ function findFiles(startDir, extensions) {
             }
         });
     }
-
     walk(startDir);
     return files;
 }
 
-function replaceTermsInText(text, termsMap) {
+function replaceTermsWithCount(text, termsMap) {
     let newText = text;
+    const changesPerKey = {};
     for (const [key, value] of Object.entries(termsMap)) {
-        // Все вхождения, чувствительно к регистру
-        newText = newText.split(key).join(value);
-        // Для регистронезависимой замены используйте:
-        // newText = newText.replace(new RegExp(key, 'gi'), value);
+        const regex = new RegExp(key.replace(/[-/\\^$*+?.()|[\]{}]/g, '\\$&'), 'g'); // escape key
+        const matches = newText.match(regex);
+        const count = matches ? matches.length : 0;
+        if (count > 0) {
+            newText = newText.replace(regex, value);
+            changesPerKey[key] = count;
+        }
     }
-    return newText;
+    return { newText, changesPerKey };
 }
 
 function main() {
     const termsMap = loadTermsMap();
     const files = findFiles('.', EXTENSIONS);
+    let totalFilesChanged = 0;
+    let totalReplacements = 0;
 
     files.forEach((file) => {
         const original = fs.readFileSync(file, 'utf8');
-        const replaced = replaceTermsInText(original, termsMap);
-        if (original !== replaced) {
-            fs.writeFileSync(file, replaced, 'utf8');
-            console.log(`Updated: ${file}`);
+        const { newText, changesPerKey } = replaceTermsWithCount(original, termsMap);
+
+        if (Object.keys(changesPerKey).length > 0) {
+            fs.writeFileSync(file, newText, 'utf8');
+            totalFilesChanged++;
+            let perFileCount = 0;
+            console.log(`\nUpdated: ${file}`);
+            Object.entries(changesPerKey).forEach(([key, count]) => {
+                perFileCount += count;
+                console.log(`  "${key}" replaced ${count} times`);
+            });
+            totalReplacements += perFileCount;
+            console.log(`  Total replacements in file: ${perFileCount}`);
         }
     });
+
+    console.log('\nSUMMARY:');
+    console.log(`  Files updated: ${totalFilesChanged}`);
+    console.log(`  Total replacements: ${totalReplacements}`);
 }
 
 main();
