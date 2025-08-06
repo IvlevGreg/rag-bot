@@ -1,0 +1,52 @@
+The Mandalorian and Grogu
+This article details a subject that is considered canon.The subject of this article takes place in the New Republic era.The subject of this article exists in or is relevant to the real world.
+Edit
+
+Difficult to see. Always in motion is the future.
+
+This page contains information about a confirmed future film.
+
+The content of the page may change dramatically as the product release approaches and more information becomes available.
+
+[Hide]
+
+The Mandalorian and Grogu logo
+The Mandalorian and Grogu
+Attribution information
+Director(s)
+Jon Favreau[1]
+Producer(s)
+Jon Favreau[1]
+Kathleen Kennedy[1]
+Dave Filoni[1]
+Production information
+Released
+May 22, 2026[2]
+Chronological information
+Series
+The Mandalorian
+[Source]
+The Mandalorian and Grogu, announced as The Mandalorian & Grogu, is a Star Wars movie that started production in 2024.[2] Directed by Jon Favreau and produced by Favreau, Kathleen Kennedy, and Dave Filoni, it takes place between the events of Episode VI: Return of the Jedi and Episode VII: The Force Awakens, focuses on the adventures of Din Djarin and Din Grogu, and will be a spinoff to the TV series The Mandalorian. The film was announced on January 9 that year on StarWars.com with a conceptual sketch by veteran illustrator Ryan Church, along with an announcement of a second season of the television series Ahsoka.[1] A fourth season of The Mandalorian is also still in development.[3]
+On May 7, 2019, Disney revealed their future movie release schedule, including a set of three untitled new Star Wars films, one of which had a scheduled release date of December 20, 2024.[4] The Star Wars Show also reported on the news on May 15.[5] On July 23, 2020, after the onset of the COVID-19 pandemic, the film was delayed to December 19, 2025.[6] After the start of the 2023 Writers Guild of America strike, Disney shifted their theatrical film release slate, with the film being pushed to its current release date of May 22, 2026.[2] A film directed by Sharmeen Obaid-Chinoy occupied this release slot until The Mandalorian & Grogu was announced.[7]
+
+Star Wars Insider 224 revealed the initial film logo was the same as the one for The Mandalorian Season Three.[8] In August 2024, during D23 2024, it was revealed that the film had entered production,[2] and a new logo was revealed, in addition to a teaser that was shown to the audience.[9] In August 2024, Sigourney Weaver revealed that she had joined the cast of The Mandalorian & Grogu.[10]
+
+Alongside the release of the movie, Millennium Falcon: Smuggler's Run will be updated to include a new mission featuring Djarin, Grogu, Tatooine, Endor and Cloud City, which takes place off camera from the film.[11]
+
+
+Mute
+
+Advanced Settings
+
+Fullscreen
+
+Pause
+
+Rewind 10 Seconds
+
+Up Next
+Brand logo
+
+
+Publisher's summary
+The Mandalorian, a lone bounty hunter, is tasked with capturing Grogu, a mysterious and adorable creature. Instead, he forms a strong bond with Grogu and strives to protect him from various threats, exploring his evolving purpose in a post-Empire galaxy.[1

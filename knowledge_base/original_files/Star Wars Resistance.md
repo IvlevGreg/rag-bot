@@ -1,0 +1,122 @@
+Star Wars Resistance
+This article details a subject that is considered canon.The subject of this article takes place in the Rise of the First Order era.The subject of this article exists in or is relevant to the real world.
+Edit
+For other uses, see Resistance.
+
+SWResistanceLogo-Dplus
+Star Wars Resistance
+Production information
+Format
+Animated[1]
+Episode count
+40
+No. of seasons
+2[2]
+Run time
+Approx. 25 minutes per episode (30-min time slot)
+17 hours
+(1020 minutes) (total)
+Network(s)
+Disney Channel[1]
+Disney XD[1]
+First aired
+October 7, 2018[3]
+Last aired
+January 26, 2020[4]
+Attribution information
+Creator(s)
+Dave Filoni[1]
+Writer(s)
+Brandon Auman[5]
+Kevin Burke[6]
+Chris Wyatt[6]
+Eugene Son[7]
+Stephany Folsom[8]
+Paul Giacoppo[9]
+Steven Melching[10]
+Director(s)
+Steward Lee[5]
+Saul Ruiz[5]
+Sergio Paez[6]
+Bosco Ng[7]
+Executive producer(s)
+Athena Yvette Portillo[1]
+Justin Ridge[1]
+Brandon Auman[1]
+Starring
+Christopher Sean[1]
+Josh Brener[1]
+Scott Lawrence[1]
+Suzie McGrath[1]
+Justin Ridge
+Chronological information
+Timeline
+34 ABY[11][12]
+[Source]
+"We wanted to have a series where the lead doesn't have the Force, and he's just trying to make his way through the galaxy and trying to become this hero without any Force-wielders."
+―Brandon Auman, executive producer[13]
+Star Wars Resistance is an animated television series that premiered on October 7, 2018, and concluded on January 26, 2020, having aired on Disney Channel and Disney XD. The series was created by Dave Filoni and executive produced by Athena Yvette Portillo, Justin Ridge, and Brandon Auman. It stars Christopher Sean, Josh Brener, Suzie McGrath, Scott Lawrence, and Justin Ridge, with special appearances from Oscar Isaac as Poe Dameron and Gwendoline Christie as Captain Phasma.
+
+
+Contents
+1	Plot summary
+2	Development
+3	Release ‡
+3.1	Home video
+4	Release and reception
+5	Media
+5.1	Seasons
+6	Credits
+7	Sources
+8	Notes and references
+9	External links
+
+Mute
+
+Advanced Settings
+
+Fullscreen
+
+Pause
+
+Rewind 10 Seconds
+
+Up Next
+
+
+Plot summary
+"We wanted to give a slice of life in a part of the galaxy that wasn't about the Jedi. How do people who are maybe not as connected with the Force, or at least they don't think they are, how did they respond to these threats? What do we do in the meantime when there isn't really a war going on?"
+―Justin Ridge[14]
+The series is set between the events of Star Wars: Episode VI Return of the Jedi and Star Wars: Episode VII The Force Awakens, in a time when the Resistance is still learning about the growing threat of the First Order. It centers on the character of Kazuda Xiono, a young pilot in General Leia Organa's Resistance who is tasked with spying on the growing threat of the First Order.[1]
+
+Slashfilm reported November 12, 2018 that a more specific timeline was revealed in episode 1.6 of Resistance Rewind. In that episode, executive producer Justin Ridge let slip that Star Wars Resistance takes place six months before the events of The Force Awakens, revealing: "Because this series takes place six months before The Force Awakens we have a lot of connective tissue to what we see in the movie. So eventually our events in the show will parallel what happens in the movie."[15]
+
+Development
+"So right now, Resistance is a bit different, in that I'm not on that day-to-day. I created and set it in motion, but I've given that to other people to raise up, people that I've worked with a long time, who I think deserve the opportunity to tell stories and I think it's exciting, and I give them my thoughts and notes – I was just doing that this morning, like George would give me. So that's fun."
+―Dave Filoni on his involvement with the series[16]
+Star Wars Resistance Title Card
+A promotional banner released with the announcement of Star Wars Resistance on StarWars.com
+
+Star Wars Resistance was created by Dave Filoni, head of Lucasfilm Animation who led the creative team on Star Wars: The Clone Wars and Star Wars Rebels. The inspiration for the series was Filoni's interest in World War II aircraft and fighter pilots, with his grandfather's time as a pilot during the war being a particular influence on him. In the announcement of the series, Filoni noted that the series would capture the sense of excitement around high-speed racing, which Star Wars had depicted in many stories over the years.[1] Executive producer Justin Ridge elaborated: "It was a concept Dave came up with: he wanted to have a show that went more into 'How is the First Order gathering materials? What is the First Order doing before The Force Awakens?' It grew from that initial seed."[17] For the show's setting, Filoni was also inspired by the sitcom Cheers; executive producer Athena Yvette Portillo explained this to StarWars.com: "He said, 'I want a show that takes place in one set that you go to constantly. You get to know the patrons, you get to know the people, and you introduce new characters…and it's all about their way of life.'"[13]
+
+Resistance begins six months before the Battle of Starkiller Base, and eventually crosses over with the events of Star Wars: Episode VII The Force Awakens.[18] When the series began development, the creative team was unsure of the details of Star Wars: Episode VIII The Last Jedi and Star Wars: Episode IX The Rise of Skywalker, so they had to be careful to avoid any possible continuity conflicts with those films.[19] The show was planned to last only two seasons, so as to bridge the gap between the two films.[20][21]
+
+Resistance Concept Art
+Concept art of a race around Colossus
+
+In September 2016, Disney Television president Ben Sherwood revealed that he had been working with Lucasfilm on a new animated series.[22] When the third season of Star Wars Rebels debuted, it was announced that Filoni had stepped down as Supervising Director, in lieu of helping to develop "future animation development."[23] Pablo Hidalgo revealed that Filoni and crew were working on the new series as of September 2017.[24] In February 2018, it was reported that Lucasfilm filed a trademark for the name Star Wars Resistance[25][26] (rumors of such a series had stretched back to 2014).[27] The series was officially announced on April 26, 2018 for a debut in the fall of that year.[1] Despite creating the show, Filoni confirmed in an August 12 interview that he would not be working as directly in a day-to-day capacity on Resistance as he had on previous projects, given his work on the revival of The Clone Wars, but he would still provide notes and direction to the story team, a role Filoni compared to George Lucas' input on The Clone Wars.[16] The show's animations were produced by Polygon Pictures.[28] They are rendered in CG and based on the anime animation style,[29][1] with major inspirations being Robotech, Lupin the Third and the films of Hayao Miyazaki.[30] Many of the show's designs are based on unused original trilogy concept sketches from artists such as Joe Johnston, Ralph McQuarrie, and Nilo Rodis-Jamero.[31] During production, the animated series was called "Zero."[32]
+
+
+Advertisement
+Release ‡
+Star Wars Resistance premiered on October 7, 2018.[3] In the days leading up to the premiere, the show had a presence at the 2018 New York Comic Con; a life-sized model of the Fireball was present,[33] and Hasbro released a toy line based on the series.[34]
+
+On August 4, 2019, it was announced that the second season would premiere on October 6, 2019 when the Season 2 trailer was released. It was also revealed to be the final season of the show.[2]
+
+Home video
+The first season was released on DVD on August 20, 2019.[35]
+
+Both seasons are available on the Disney+ streaming service. The first season was available at launch on November 12, 2019,[36] and the second season became available on February 25, 2020.[37]
+
+Release and reception
+In 2019, the first season was nominated for an Emmy for "Outstanding Children's Programming,"[38] and won a Saturn for "Best Animated Television Series."[39] In 2020, the second season was also nominated for an Emmy for "Outstanding Children's Program."[40]
