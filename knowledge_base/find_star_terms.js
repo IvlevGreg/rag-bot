@@ -3,7 +3,6 @@ const path = require('path');
 
 const EXTENSIONS = ['md', 'txt'];
 const TOP = 50;
-// регулярка для поиска: от одного до четырех слов, начинающихся с большой буквы или содержащих дефис/цифры
 const TERM_REGEX = /\b([A-Z][a-z0-9]+(?:[-\s][A-Z][a-z0-9]+){0,3})\b/g;
 
 function findFiles(dir, exts) {
@@ -30,7 +29,7 @@ function isTermValid(term) {
     const clean = term.trim();
     if (clean.length < 4) return false;
     if (STOPWORDS.has(clean)) return false;
-    if (/^[A-Z][a-z]{1,2}$/.test(clean)) return false; // одиночная буква или очень короткие
+    if (/^[A-Z][a-z]{1,2}$/.test(clean)) return false;
     return true;
 }
 
@@ -53,8 +52,48 @@ function main() {
         .sort((a, b) => b[1] - a[1])
         .slice(0, TOP);
 
+    const termsSet = new Set(sorted.map(([term]) => term));
+    const termsArray = sorted.map(([term, count]) => ({term, count}));
+
+    // Найти частичные (вложенные) пересечения
+    function findContainingTerms(target, skipTerm) {
+        const lowerTarget = target.toLowerCase();
+        return termsArray
+            .filter(x =>
+                x.term !== target &&
+                (
+                    x.term.toLowerCase().includes(lowerTarget) ||
+                    lowerTarget.includes(x.term.toLowerCase())
+                )
+            );
+    }
+
     console.log('\n50 самых популярных "фантастических" терминов:\n');
-    sorted.forEach(([term, count], i) => console.log(`${i + 1}. "${term}" — ${count}`));
+    termsArray.forEach(({term, count}, i) => {
+        console.log(`${i + 1}. "${term}" — ${count}`);
+        // Находим кто содержит этот термин, но длиннее его
+        const longer = termsArray
+            .filter(x =>
+                x.term !== term &&
+                x.term.length > term.length &&
+                x.term.toLowerCase().includes(term.toLowerCase())
+            );
+        longer.forEach(x => {
+            console.log(`    Входит в: "${x.term}" — ${x.count}`);
+        });
+        // Можно раскомментировать, чтобы искать и когда текущий входит в короткие (например, "Obi-Wan Kenobi" ← "Obi-Wan")
+        /*
+        const shorter = termsArray
+            .filter(x =>
+                x.term !== term &&
+                x.term.length < term.length &&
+                term.toLowerCase().includes(x.term.toLowerCase())
+            );
+        shorter.forEach(x => {
+            console.log(`    Содержит: "${x.term}" — ${x.count}`);
+        });
+        */
+    });
 }
 
 main();
