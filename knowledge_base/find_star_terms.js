@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const { faker } = require('@faker-js/faker');
 
 const EXTENSIONS = ['md', 'txt'];
 const TOP = 50;
@@ -35,7 +36,6 @@ function isTermValid(term) {
 
 function main() {
     const files = findFiles('processed_files', EXTENSIONS);
-
     const freq = {};
 
     for (const file of files) {
@@ -52,48 +52,43 @@ function main() {
         .sort((a, b) => b[1] - a[1])
         .slice(0, TOP);
 
-    const termsSet = new Set(sorted.map(([term]) => term));
-    const termsArray = sorted.map(([term, count]) => ({term, count}));
+    const termsArray = sorted.map(([term, count]) => ({ term, count }));
 
-    // Найти частичные (вложенные) пересечения
-    function findContainingTerms(target, skipTerm) {
-        const lowerTarget = target.toLowerCase();
-        return termsArray
-            .filter(x =>
-                x.term !== target &&
-                (
-                    x.term.toLowerCase().includes(lowerTarget) ||
-                    lowerTarget.includes(x.term.toLowerCase())
-                )
-            );
+    // Для генерации уникальных случайных имён
+    const generatedNames = new Set();
+    function uniqueRandomName() {
+        let name;
+        do {
+            name = faker.word.adjective().charAt(0).toUpperCase() + faker.word.adjective().slice(1) +
+                ' ' + faker.science.chemicalElement().name;
+        } while (generatedNames.has(name));
+        generatedNames.add(name);
+        return name;
     }
 
-    console.log('\n50 самых популярных "фантастических" терминов:\n');
-    termsArray.forEach(({term, count}, i) => {
-        console.log(`${i + 1}. "${term}" — ${count}`);
-        // Находим кто содержит этот термин, но длиннее его
-        const longer = termsArray
-            .filter(x =>
-                x.term !== term &&
-                x.term.length > term.length &&
-                x.term.toLowerCase().includes(term.toLowerCase())
-            );
-        longer.forEach(x => {
-            console.log(`    Входит в: "${x.term}" — ${x.count}`);
-        });
-        // Можно раскомментировать, чтобы искать и когда текущий входит в короткие (например, "Obi-Wan Kenobi" ← "Obi-Wan")
-        /*
-        const shorter = termsArray
-            .filter(x =>
-                x.term !== term &&
-                x.term.length < term.length &&
-                term.toLowerCase().includes(x.term.toLowerCase())
-            );
-        shorter.forEach(x => {
-            console.log(`    Содержит: "${x.term}" — ${x.count}`);
-        });
-        */
+    // Подготовка json с комментариями
+    const commentLines = [];
+    termsArray.forEach((item) => {
+        const fakeName = uniqueRandomName();
+        // Найти более длинные термины из топа, которые содержат этот
+        const containing = termsArray
+            .filter(x => x.term !== item.term && x.term.length > item.term.length && x.term.toLowerCase().includes(item.term.toLowerCase()));
+        let comment = `(${item.count})`;
+        if (containing.length) {
+            comment += containing.map(x => ` => Входит в: "${x.term}" (${x.count})`).join('');
+        }
+        commentLines.push(`  "${item.term}": "${fakeName}", // ${comment}`);
     });
+
+    const jsonWithComments =
+        '{\n' +
+        commentLines.join('\n') +
+        '\n}';
+    fs.writeFileSync('terms_map_draft_with_comments.js', jsonWithComments, 'utf8');
+
+    console.log('Draft terms map with JS-style comments saved to terms_map_draft_with_comments.js');
+    console.log('Пример:');
+    console.log(commentLines.slice(0, 5).join('\n'));
 }
 
 main();
