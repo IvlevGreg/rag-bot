@@ -75,3 +75,9 @@ ChromaDB предпочтительна из-за удобства работы 
 
 Описание работы с knowledge_base смотри в [readme.md](knowledge_base%2Freadme.md)
 
+## Задание 3. Подготовка базы знаний
+
+Название модели:	intfloat/e5-base-v2
+Репозиторий:	https://huggingface.co/intfloat/e5-base-v2
+Размер эмбеддингов:	768
+
