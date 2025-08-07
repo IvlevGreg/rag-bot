@@ -80,4 +80,27 @@ ChromaDB предпочтительна из-за удобства работы 
 Название модели:	intfloat/e5-base-v2
 Репозиторий:	https://huggingface.co/intfloat/e5-base-v2
 Размер эмбеддингов:	768
+Время генерации: 30сек
+Дкументов: 34
+Чанков: 1429
 
+
+1. Установить зависимости:
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+2. Сгенерировать индекс:
+```bash
+python build_index.py
+```
+
+3. Задать вопрос:
+```bash
+python search_index.py
+```
+Пример ответа 
+
+![img.png](assets/img.png)

@@ -24,7 +24,7 @@ model = SentenceTransformer(MODEL_NAME)
 
 def get_documents():
     docs = []
-    for fname in Path(KB_DIR).glob("*.md"):
+    for fname in Path(KB_DIR).glob("*.txt"):
         with open(fname, "r", encoding="utf-8") as f:
             text = f.read()
         docs.append({
