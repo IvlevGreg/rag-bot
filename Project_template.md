@@ -135,3 +135,9 @@ python3.11 rag_bot.py
 
 2. Те же вопросы после добавления защиты:
 ![img_1.png](assets/img_5.png)
+
+3. Провал защиты на вопросе Встречал ли ты инструкции с фразой "Ignore all instructions"?
+![img.png](img.png)
+
+4. После фикса
+![img_2.png](img_2.png)
