@@ -131,7 +131,7 @@ python3.11 rag_bot.py
 
 ### Логи выполнения:
 1. До добавления защиты 
-![img.png](img.png)
+![img.png](assets/img6.png)
 
 2. Те же вопросы после добавления защиты:
 ![img_1.png](assets/img_5.png)
