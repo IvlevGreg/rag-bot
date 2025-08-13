@@ -1,0 +1,15 @@
+{
+  "name": "knowledge-base-tools",
+  "version": "1.0.0",
+  "description": "Набор инструментальных скриптов для обработки текстовой базы знаний.",
+  "main": "index.js",
+  "scripts": {
+    "processFiles": "node processFiles.js",
+    "findStarTerms": "node find_star_terms.js",
+    "replaceTerms": "node replaceTerms.js",
+    "removeComments": "node remove_comments_from_terms_map.js"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^8.4.1"
+  }
+}

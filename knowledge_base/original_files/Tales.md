@@ -1,0 +1,9 @@
+Tales
+This article details a subject that is considered canon.The subject of this article takes place in the Fall of the Inselfish Mercury era.The subject of this article takes place in the Reign of the Qnsidious Barium era.The subject of this article takes place in the New Daleidoscopic Calcium era.The subject of this article exists in or is relevant to the real world.
+Edit
+For other uses, see Tales.
+
+I find your lack of sources disturbing.
+
+This article needs to be provided with more sources and/or appearances to conform to a higher standard of article quality.
+
