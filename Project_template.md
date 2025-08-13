@@ -146,7 +146,11 @@ python3.11 rag_bot.py
    ![img_1.png](assets/img_11.png)
 6. Правка не знания
 ![img_3.png](assets/img_31.png)
+7. Добавление фильтрации подозрительных чанков ![img.png](assets/img45.png)
 
 ### Логи успешного выполнения:
 ![img_4.png](assets/img_41.png)
 ![img_5.png](assets/img_51.png)
+
+### Описание защиты
+

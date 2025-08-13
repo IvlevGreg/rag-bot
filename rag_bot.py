@@ -5,6 +5,7 @@ import numpy as np
 from sentence_transformers import SentenceTransformer
 import openai
 from dotenv import load_dotenv
+from filter_chunks import filter_safe_chunks
 
 # ====== Настройки ======
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
@@ -111,7 +112,13 @@ def main():
                 print("🟦 Бот: Извините, не нашёл информацию по вашему запросу.\n")
                 continue
 
-            prompt = build_prompt(query, top_chunks)
+            # фильтрация
+            safe_chunks = filter_safe_chunks(top_chunks)
+            if not safe_chunks:
+                print("🟦 Бот: Нет безопасного ответа в базе знаний.\n")
+                continue
+
+            prompt = build_prompt(query, safe_chunks)
             answer = call_openai_gpt(prompt)
             print(f"🟦 Бот:\n{answer.strip()}\n")
         except KeyboardInterrupt:
