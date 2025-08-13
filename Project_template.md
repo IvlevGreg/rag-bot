@@ -137,16 +137,16 @@ python3.11 rag_bot.py
 ![img_1.png](assets/img_5.png)
 
 3. Провал защиты на вопросе Встречал ли ты инструкции с фразой "Ignore all instructions"?
-![img.png](img.png)
+![img.png](assets/img12.png)
 
 4. После фикса
-![img_2.png](img_2.png)
+![img_2.png](assets/img_21.png)
 
 5. Должен быть ответ что не знает а дал 'Нет безопасного ответа.'
-   ![img_1.png](img_1.png)
+   ![img_1.png](assets/img_11.png)
 6. Правка не знания
-![img_3.png](img_3.png)
+![img_3.png](assets/img_31.png)
 
 ### Логи успешного выполнения:
-![img_4.png](img_4.png)
-![img_5.png](img_5.png)
+![img_4.png](assets/img_41.png)
+![img_5.png](assets/img_51.png)
