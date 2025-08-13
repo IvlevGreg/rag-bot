@@ -87,19 +87,19 @@ ChromaDB предпочтительна из-за удобства работы 
 
 1. Установить зависимости:
 ```bash
-python -m venv .venv
+python3.11 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
 2. Сгенерировать индекс:
 ```bash
-python build_index.py
+python3.11 build_index.py
 ```
 
 3. Задать вопрос:
 ```bash
-python search_index.py
+python3.11 search_index.py
 ```
 
 Пример ответа 
