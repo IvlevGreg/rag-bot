@@ -209,3 +209,4 @@ __marimo__/
 _temp
 .idea
 node_modules
+.env
